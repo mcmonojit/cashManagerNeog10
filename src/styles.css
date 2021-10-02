@@ -1,0 +1,121 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  /* box-shadow: 2px 5px 12px 2px rgba(0, 0, 0, 0.2); */
+}
+
+.cardBlue {
+  background-color: #7dd3fc;
+}
+
+.cardGreen {
+  background-color: #6ee7b7;
+}
+
+.cardYellow {
+  background-color: #fef08a;
+}
+
+.guide {
+  display: flex;
+  justify-content: space-between;
+  max-width: 540px;
+  margin: auto;
+}
+
+.guideCard {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 6px;
+  height: 110px;
+  width: 120px;
+  border-radius: 0.5rem;
+  box-shadow: 2px 5px 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+.output {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.output-notes {
+  margin: 0px 5px;
+  width: 30px;
+  padding: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  /* box-shadow: 1px 3px 10px 2px rgba(0, 0, 0, 0.2); */
+}
+
+.Inputbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.userInput {
+  border: 2px solid darkslategray;
+  border-radius: 0.3rem;
+  background-color: white;
+  height: 45px;
+  width: 260px;
+  outline: none;
+  padding: 2px 10px;
+  font-size: 18px;
+  box-shadow: 2px 5px 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+.warning {
+  color: #ef4444;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table-container {
+  margin: 10px 5px 2px 5px;
+}
+
+.table-container label {
+  font-weight: bold;
+}
+
+table {
+  /* border: 2px solid darkslategray; */
+  border-radius: 0.3rem;
+  background-color: #cbd5e1;
+  padding: 5px;
+  box-shadow: 2px 5px 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+td {
+  width: 35px;
+  padding: 5px;
+  background-color: whitesmoke;
+  /* border: 2px solid darkslategray; */
+}
